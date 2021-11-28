@@ -17247,40 +17247,6 @@ body {
   background-repeat: repeat-y;
   background-size: 100% auto;
 }
-body header nav {
-  margin-top: 30px;
-}
-body header nav .navbar-brand {
-  padding-left: 5%;
-}
-body header nav .navbar-brand span {
-  font-size: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-body header nav .navbar-brand span a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-body header nav .navbar-menu {
-  padding-right: 5%;
-}
-body header nav .navbar-menu ul {
-  display: flex;
-  flex-direction: row;
-}
-body header nav .navbar-menu ul li {
-  list-style-type: none;
-  padding: 0 15px 0 15px;
-}
-body header nav .navbar-menu ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
 .navbar {
   background-color: #ffffff00;
 }
@@ -17296,6 +17262,7 @@ body header nav .navbar-menu ul li a {
   align-items: center;
   flex-direction: column;
   padding: 10% 0 5% 0;
+  margin-bottom: 10%;
 }
 .content-banner1 h1, .content-banner1 .h1 {
   color: white;
@@ -17438,6 +17405,7 @@ body header nav .navbar-menu ul li a {
   text-transform: none;
   padding-bottom: 10px;
 }
+
 .text-img {
   margin: 0 2% 0 2%;
 }
