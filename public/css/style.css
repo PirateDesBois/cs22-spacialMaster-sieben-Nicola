@@ -17242,7 +17242,7 @@ textarea.form-control-lg {
 }
 
 body {
-  background-image: url("../../public/img/banner.jpg");
+  background: linear-gradient(rgba(38, 38, 58, 0.7), rgba(39, 38, 48, 0.6)), url("../img/banner.jpg");
   backdrop-filter: grayscale(60%) brightness(70%);
   background-repeat: repeat-y;
   background-size: 100% auto;
@@ -17275,6 +17275,7 @@ body {
   color: #AFB4BB;
   text-transform: uppercase;
   font-size: 25px;
+  text-align: center;
 }
 .content-banner1 div {
   padding-top: 2%;
@@ -17310,10 +17311,8 @@ body {
   background-color: #F6F6F6;
   padding-bottom: 2%;
 }
-.container2 div:first-of-type div {
-  padding-bottom: 5%;
-}
 .container2 div:first-of-type div h2, .container2 div:first-of-type div .h2 {
+  padding-bottom: 5%;
   color: #484848;
   text-transform: uppercase;
   font-size: 45px;
@@ -17465,6 +17464,236 @@ footer div div div span:nth-of-type(2) {
 footer div div div span:nth-of-type(3) {
   color: #8d8e95af;
   padding: 0 0 0 2%;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: #ffffff00;
+  }
+
+  .banner1 {
+    background-size: 100% 100%;
+    height: 700px;
+  }
+
+  .content-banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 0 5% 0;
+    margin-bottom: 10%;
+  }
+  .content-banner1 h1, .content-banner1 .h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 2%;
+  }
+  .content-banner1 p {
+    color: #AFB4BB;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .content-banner1 div {
+    padding-top: 2%;
+  }
+  .content-banner1 div button {
+    font-weight: bold;
+  }
+
+  .container1 div div:first-of-type {
+    width: 30%;
+    padding: 2% 5% 0 0;
+    margin-right: 50px;
+  }
+  .container1 div div:first-of-type h2, .container1 div div:first-of-type .h2 {
+    color: #484848;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .container1 div div:first-of-type p {
+    color: #bdbaba;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .container1 div div:last-of-type {
+    width: 35%;
+    padding: 2% 0 5% 0;
+  }
+  .container1 div div:last-of-type p {
+    color: #B8B5B4;
+    font-size: 10px;
+  }
+
+  .container2 {
+    background-color: #F6F6F6;
+    padding-bottom: 2%;
+  }
+  .container2 div:first-of-type div {
+    padding-bottom: 1%;
+  }
+  .container2 div:first-of-type div h2, .container2 div:first-of-type div .h2 {
+    text-align: center;
+    color: #484848;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .container2 div:first-of-type div p {
+    color: #BDBABA;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container2 div:nth-of-type(2) div div h2, .container2 div:nth-of-type(2) div div .h2 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5%;
+    color: #484848;
+  }
+  .container2 div:nth-of-type(3) {
+    margin: 3% 0 3% 0;
+  }
+  .container2 div:nth-of-type(3) div button {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px 35px 15px 35px;
+    margin: 1%;
+  }
+
+  .container3 {
+    background-color: white;
+  }
+  .container3 div:first-of-type div {
+    margin: 0 0 5% 0;
+  }
+  .container3 div:first-of-type div h2, .container3 div:first-of-type div .h2 {
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5% 0 0 5%;
+  }
+  .container3 div:first-of-type div p {
+    color: #BDBABA;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 0 0 5%;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(1), .container3 div:nth-of-type(2) div:nth-of-type(5) {
+    text-align: center;
+    width: 100%;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(1) h2, .container3 div:nth-of-type(2) div:nth-of-type(1) .h2, .container3 div:nth-of-type(2) div:nth-of-type(5) h2, .container3 div:nth-of-type(2) div:nth-of-type(5) .h2 {
+    font-size: 18px;
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(1) h3, .container3 div:nth-of-type(2) div:nth-of-type(1) .h3, .container3 div:nth-of-type(2) div:nth-of-type(5) h3, .container3 div:nth-of-type(2) div:nth-of-type(5) .h3 {
+    font-size: 17px;
+    color: #CAC9CC;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(1) p, .container3 div:nth-of-type(2) div:nth-of-type(5) p {
+    font-size: 10px;
+    color: #484848;
+    width: 100%;
+    text-transform: none;
+    padding-bottom: 10px;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(4), .container3 div:nth-of-type(2) div:nth-of-type(8) {
+    text-align: center;
+    width: 100%;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(4) h2, .container3 div:nth-of-type(2) div:nth-of-type(4) .h2, .container3 div:nth-of-type(2) div:nth-of-type(8) h2, .container3 div:nth-of-type(2) div:nth-of-type(8) .h2 {
+    font-size: 18px;
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(4) h3, .container3 div:nth-of-type(2) div:nth-of-type(4) .h3, .container3 div:nth-of-type(2) div:nth-of-type(8) h3, .container3 div:nth-of-type(2) div:nth-of-type(8) .h3 {
+    font-size: 17px;
+    color: #CAC9CC;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  .container3 div:nth-of-type(2) div:nth-of-type(4) p, .container3 div:nth-of-type(2) div:nth-of-type(8) p {
+    font-size: 10px;
+    color: #484848;
+    width: 100%;
+    text-transform: none;
+    padding-bottom: 10 px;
+  }
+
+  .text-img {
+    margin: 0 2% 0 2%;
+  }
+
+  .col-sm-4, .col-sm-2 {
+    padding-bottom: 5%;
+  }
+
+  .container4 div div {
+    padding: 5% 0 5% 0;
+  }
+  .container4 div div h2, .container4 div div .h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .container4 div div p {
+    color: #8D8E95;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  .container4 div div button {
+    font-weight: bold;
+  }
+
+  footer div div div ul {
+    display: flex;
+    padding: 0;
+  }
+  footer div div div ul li {
+    list-style-type: none;
+  }
+  footer div div div ul li i {
+    color: #8D8E95;
+    padding: 20px;
+    font-size: 15px;
+  }
+  footer div div div {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 5%;
+  }
+  footer div div div span:first-of-type {
+    font-size: 10px;
+    color: #8d8e95af;
+    padding: 0 1% 0 0;
+    border-right: 1px solid #8d8e955b;
+  }
+  footer div div div span:nth-of-type(2) {
+    font-size: 10px;
+    color: #8d8e95af;
+    padding: 0 2% 0 2%;
+    border-right: 1px solid #8d8e955b;
+  }
+  footer div div div span:nth-of-type(3) {
+    font-size: 10px;
+    color: #8d8e95af;
+    padding: 0 0 0 1%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
